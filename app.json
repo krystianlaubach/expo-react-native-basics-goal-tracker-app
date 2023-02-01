@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "GoalTracker",
-    "slug": "GoalTracker",
+    "slug": "expo-learning-goaltracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/c482c433-ad2c-4b6f-8db7-e99ade6b72af"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -28,6 +29,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c482c433-ad2c-4b6f-8db7-e99ade6b72af"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
